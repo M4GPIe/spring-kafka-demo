@@ -19,6 +19,16 @@
             "projectName": "wikimedia-producer",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WikimediaConsumerApplication<wikimedia-consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.M4GPIe.wikimedia.wikimedia_consumer.WikimediaConsumerApplication",
+            "projectName": "wikimedia-consumer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
