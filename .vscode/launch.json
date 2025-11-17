@@ -9,6 +9,16 @@
             "projectName": "kafka-demo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WikimediaProducerApplication<wikimedia-producer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.M4GPIe.wikimedia.wikimedia_producer.WikimediaProducerApplication",
+            "projectName": "wikimedia-producer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
